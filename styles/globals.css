@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body,
+  main,
+  nav,
+  header,
+  aside,
+  article,
+  button,
+  a,
+  span,
+  div {
+    @apply transition-all duration-300;
+  }
+  body {
+    @apply font-poppins overflow-x-hidden bg-white dark:bg-gray-900 antialiased;
+  }
+  body ::selection {
+    @apply bg-blue-200 dark:bg-pink-600;
+  }
+  ::-webkit-scrollbar {
+    @apply w-1;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-b from-yellow-500 dark:from-blue-500 to-pink-500 rounded-full;
+  }
+
+  /* edit this to match your customization */
+  .prose-sm pre {
+    @apply w-full relative py-1 sm:py-2 px-2 sm:px-4 my-1 sm:my-2 rounded-md whitespace-pre overflow-x-auto bg-gray-100 dark:bg-gray-800;
+  }
+  .prose-sm pre ::selection {
+    @apply bg-gray-300 dark:bg-gray-900;
+  }
+  .prose-sm pre::-webkit-scrollbar {
+    @apply h-1;
+  }
+  .prose-sm pre::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-r from-yellow-500 dark:from-blue-500 to-pink-500;
+  }
+  .prose-sm code {
+    @apply tracking-wider text-xs sm:text-sm lg:text-base w-full;
+  }
+  .prose pre {
+    @apply w-full relative py-1 sm:py-2 px-2 sm:px-4 my-1 sm:my-2 rounded-md whitespace-pre overflow-x-auto;
+  }
+  .prose pre ::selection {
+    @apply bg-gray-300 dark:bg-gray-900;
+  }
+  .prose pre::-webkit-scrollbar {
+    @apply h-1;
+  }
+  .prose pre::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-r from-yellow-500 dark:from-blue-500 to-pink-500;
+  }
+  .prose code {
+    @apply tracking-wider text-xs sm:text-sm lg:text-base w-full;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.statusBar.visible": false,
+  "editor.bracketPairColorization.enabled": true,
+  "eslint.lintTask.enable": true,
+  "prettier.quoteProps": "consistent",
+  "css.lint.unknownAtRules": "ignore",
+  "tailwindCSS.lint.recommendedVariantOrder": "error",
+  "tailwindCSS.lint.invalidTailwindDirective": "error",
+  "tailwindCSS.lint.invalidApply": "warning",
+  "tailwindCSS.lint.invalidVariant": "error",
+  "tailwindCSS.lint.invalidScreen": "error",
+  "tailwindCSS.lint.cssConflict": "error",
+  "tailwindCSS.showPixelEquivalents": true,
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.colorDecorators": true,
+  "tailwindCSS.rootFontSize": 16
+}
